@@ -56,4 +56,4 @@ the central entity when they are exhausted.
 [2]: http://1-dot-shorten2go.appspot.com
 [3]: http://github.com/cilogi/shorten2go
 [4]: https://cloud.google.com/appengine/docs/java/logs/
-[5]: https://shorten2go.appspot.com
+[5]: http://1-dot-shorten2go.appspot.com
