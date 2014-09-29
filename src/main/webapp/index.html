@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Mobile-friendly URL shortener">
+    <meta name="author" content="Tim Niblett, Cilogi">
+    <meta name="blitz" content="mu-e89e74a3-9ae78cf8-73ee2128-a15aebbe">
+    <link rel="icon" href="/images/favicon.ico">
+
+    <title>Mobile Friendly URL Shortener</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="styles/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="styles/spinner.css" rel="stylesheet">
+    <link href="styles/local.css" rel="stylesheet">
+
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="//oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="//oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]--></head>
+
+<body>
+<div class="center-page">
+    <div id="spinner" class="traditional">
+        <div></div>
+    </div>
+</div>
+<div class="container-fluid">
+    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                        data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">shorten2go</a>
+            </div>
+            <div class="collapse navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="/index.html">Home</a></li>
+                </ul>
+            </div>
+            <!--/.nav-collapse -->
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-2"></div>
+        <div class="col-md-8">
+            <h1>Mobile-friendly, scalable, URL shortener</h1>
+
+            <p class="lead">Use this shortener if you need short URLs which you expect people to type into a mobile
+                phone, as the URL contains only lower-case letters.</p>
+            <p class="lead">The demo runs on Google App Engine and will scale up to large volumes.</p>
+            <p class="lead">This demo doesn't have a short domain, so the output is long.  To run it yourself you'll need
+               a short domain.</p>
+            <div role="form">
+                <div class="form-group">
+                    <label for="input">Type URL here</label>
+                    <input class="form-control" id="input" name="input" type="text">
+                </div>
+            </div>
+            <div id="answer-group" style="display:none; margin-top: 40px;">
+                <hr/>
+                <h4>Your short URL</h4>
+
+                <p class="lead" id="answer"></p>
+            </div>
+        </div>
+        <div class="col-md-2"></div>
+    </div>
+
+</div>
+<!-- /.container -->
+
+<footer class="info-footer" role="contentinfo">
+    <div class="container">
+        <ul class="footer-links muted">
+            <li>v1.0</li>
+            <li>·</li>
+            <li><a href="https://github.com/cilogi/shorten2go">GitHub</a></li>
+            <li>·</li>
+            <li><a href="https://github.com/cilogi/shorten2go/issues?state=open">Issues</a></li>
+        </ul>
+    </div>
+</footer>
+
+
+<script src="scripts/vendor/jquery.min.js"></script>
+<script src="scripts/vendor/bootstrap.min.js"></script>
+<script src="scripts/vendor/ie10-viewport-bug-workaround.js"></script>
+<script src="scripts/shorten.js"></script>
+
+</body>
+</html>

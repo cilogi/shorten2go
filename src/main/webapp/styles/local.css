@@ -1,0 +1,30 @@
+body {
+  padding-top: 50px;
+}
+
+.center-text {
+  padding: 40px 15px;
+  text-align: center;
+}
+
+.info-footer {
+    margin-top: 100px;
+    color: #777;
+    text-align: center;
+    border-top: 1px solid #e5e5e5;
+}
+
+.footer-links {
+    padding-left: 0;
+    margin-top: 0.5em;
+    color: #ccc;
+}
+
+.footer-links li {
+    display: inline;
+    padding: 0 2px;
+}
+
+.footer-links a {
+    color: #A2B5CA;
+}
